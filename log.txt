@@ -1,0 +1,377 @@
+Server(13704)
+Client 13710: my priority is 1, my sync mode is sync
+client finishes initialization...
+Client:13710, Expected result of request 0 (x = 4, p = 7) = 1...
+Client:13710, Expected result of request 1 (x = 18, p = 6) = 0...
+Client:13710, Expected result of request 2 (x = 14, p = 6) = 4...
+Client:13710, Expected result of request 3 (x = 7, p = 3) = 2...
+Locking msg queue semaphore
+Unlocking msg queue semaphore
+Client 13710: Actual result of request 0 = 1...
+Client 13710: Actual result of request 1 = 0...
+Client 13710: Actual result of request 2 = 4...
+Client 13710: Actual result of request 3 = 2...
+Server(13704)
+Client 13709: my priority is 4, my sync mode is async
+client finishes initialization...
+Calling service async...
+Client:13709, Expected result of request 0 (x = 4, p = 7) = 1...
+Client:13709, Expected result of request 1 (x = 18, p = 6) = 0...
+Client:13709, Expected result of request 2 (x = 14, p = 6) = 4...
+Client:13709, Expected result of request 3 (x = 7, p = 3) = 2...
+Client:13709, Expected result of request 4 (x = 10, p = 2) = 0...
+Client:13709, Expected result of request 5 (x = 3, p = 8) = 6...
+Locking msg queue semaphore
+Unlocking msg queue semaphore
+Client 13709: Actual result of request 0 = 1...
+Client 13709: Actual result of request 1 = 0...
+Client 13709: Actual result of request 2 = 4...
+Client 13709: Actual result of request 3 = 2...
+Client 13709: Actual result of request 4 = 0...
+Client 13709: Actual result of request 5 = 6...
+Server(13704)
+Client 13705: my priority is 2, my sync mode is async
+client finishes initialization...
+Calling service async...
+Client:13705, Expected result of request 0 (x = 4, p = 7) = 1...
+Client:13705, Expected result of request 1 (x = 18, p = 6) = 0...
+Client:13705, Expected result of request 2 (x = 14, p = 6) = 4...
+Client:13705, Expected result of request 3 (x = 7, p = 3) = 2...
+Client:13705, Expected result of request 4 (x = 10, p = 2) = 0...
+Client:13705, Expected result of request 5 (x = 3, p = 8) = 6...
+Locking msg queue semaphore
+Unlocking msg queue semaphore
+Client 13705: Actual result of request 0 = 1...
+Client 13705: Actual result of request 1 = 0...
+Client 13705: Actual result of request 2 = 4...
+Client 13705: Actual result of request 3 = 2...
+Client 13705: Actual result of request 4 = 0...
+Client 13705: Actual result of request 5 = 6...
+Server(13704)
+Client 13708: my priority is 2, my sync mode is sync
+client finishes initialization...
+Client:13708, Expected result of request 0 (x = 4, p = 7) = 1...
+Client:13708, Expected result of request 1 (x = 18, p = 6) = 0...
+Client:13708, Expected result of request 2 (x = 14, p = 6) = 4...
+Client:13708, Expected result of request 3 (x = 7, p = 3) = 2...
+Locking msg queue semaphore
+Unlocking msg queue semaphore
+Client 13708: Actual result of request 0 = 1...
+Client 13708: Actual result of request 1 = 0...
+Client 13708: Actual result of request 2 = 4...
+Client 13708: Actual result of request 3 = 2...
+Server(13704)
+Server: Initialize finish...
+Server: Start!...
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Working on client(13705): 0 request | Shared Memory name: /shm_13705,  Semaphore id: 2.
+Server: Working on client(13705): 1 request | Shared Memory name: /shm_13705,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13710): 0 request | Shared Memory name: /shm_13710,  Semaphore id: 1.
+Server: Checking high priority queue.
+/shm_13706Server: Working on client(13706): 0 request | Shared Memory name: /shm_13706,  Semaphore id: 4.
+/shm_13706Server: Working on client(13706): 1 request | Shared Memory name: /shm_13706,  Semaphore id: 4.
+/shm_13706Server: Working on client(13706): 2 request | Shared Memory name: /shm_13706,  Semaphore id: 4.
+/shm_13706Server: Working on client(13706): 3 request | Shared Memory name: /shm_13706,  Semaphore id: 4.
+Server: Checking medium priority queue.
+Server: Working on client(13705): 2 request | Shared Memory name: /shm_13705,  Semaphore id: 2.
+Server: Working on client(13705): 3 request | Shared Memory name: /shm_13705,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13710): 1 request | Shared Memory name: /shm_13710,  Semaphore id: 1.
+Server: Checking high priority queue.
+/shm_13709Server: Working on client(13709): 0 request | Shared Memory name: /shm_13709,  Semaphore id: 4.
+/shm_13709Server: Working on client(13709): 1 request | Shared Memory name: /shm_13709,  Semaphore id: 4.
+/shm_13709Server: Working on client(13709): 2 request | Shared Memory name: /shm_13709,  Semaphore id: 4.
+/shm_13709Server: Working on client(13709): 3 request | Shared Memory name: /shm_13709,  Semaphore id: 4.
+Server: Checking medium priority queue.
+Server: Working on client(13705): 4 request | Shared Memory name: /shm_13705,  Semaphore id: 2.
+Server: Working on client(13705): 5 request | Shared Memory name: /shm_13705,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13710): 2 request | Shared Memory name: /shm_13710,  Semaphore id: 1.
+Server: Checking high priority queue.
+/shm_13709Server: Working on client(13709): 4 request | Shared Memory name: /shm_13709,  Semaphore id: 4.
+/shm_13709Server: Working on client(13709): 5 request | Shared Memory name: /shm_13709,  Semaphore id: 4.
+Server: Checking medium priority queue.
+Server: Working on client(13708): 0 request | Shared Memory name: /shm_13708,  Semaphore id: 2.
+Server: Working on client(13708): 1 request | Shared Memory name: /shm_13708,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13710): 3 request | Shared Memory name: /shm_13710,  Semaphore id: 1.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Working on client(13708): 2 request | Shared Memory name: /shm_13708,  Semaphore id: 2.
+Server: Working on client(13708): 3 request | Shared Memory name: /shm_13708,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13707): 0 request | Shared Memory name: /shm_13707,  Semaphore id: 1.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Working on client(13711): 0 request | Shared Memory name: /shm_13711,  Semaphore id: 2.
+Server: Working on client(13711): 1 request | Shared Memory name: /shm_13711,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13707): 1 request | Shared Memory name: /shm_13707, Server(13704)
+Client 13711: my priority is 2, my sync mode is async
+client finishes initialization...
+Calling service async...
+Client:13711, Expected result of request 0 (x = 4, p = 7) = 1...
+Client:13711, Expected result of request 1 (x = 18, p = 6) = 0...
+Client:13711, Expected result of request 2 (x = 14, p = 6) = 4...
+Client:13711, Expected result of request 3 (x = 7, p = 3) = 2...
+Client:13711, Expected result of request 4 (x = 10, p = 2) = 0...
+Client:13711, Expected result of request 5 (x = 3, p = 8) = 6...
+Locking msg queue semaphore
+Unlocking msg queue semaphore
+Client 13711: Actual result of request 0 = 1...
+Client 13711: Actual result of request 1 = 0...
+Client 13711: Actual result of request 2 = 4...
+Client 13711: Actual result of request 3 = 2...
+Client 13711: Actual result of request 4 = 0...
+Client 13711: Actual result of request 5 = 6...
+Server(13704)
+Client 13706: my priority is 4, my sync mode is sync
+client finishes initialization...
+Client:13706, Expected result of request 0 (x = 4, p = 7) = 1...
+Client:13706, Expected result of request 1 (x = 18, p = 6) = 0...
+Client:13706, Expected result of request 2 (x = 14, p = 6) = 4...
+Client:13706, Expected result of request 3 (x = 7, p = 3) = 2...
+Locking msg queue semaphore
+Unlocking msg queue semaphore
+Client 13706: Actual result of request 0 = 1...
+Client 13706: Actual result of request 1 = 0...
+Client 13706: Actual result of request 2 = 4...
+Client 13706: Actual result of request 3 = 2...
+Server(13704)
+Client 13707: my priority is 1, my sync mode is async
+client finishes initialization...
+Calling service async...
+Client:13707, Expected result of request 0 (x = 4, p = 7) = 1...
+Client:13707, Expected result of request 1 (x = 18, p = 6) = 0...
+Client:13707, Expected result of request 2 (x = 14, p = 6) = 4...
+Client:13707, Expected result of request 3 (x = 7, p = 3) = 2...
+Client:13707, Expected result of request 4 (x = 10, p = 2) = 0...
+Client:13707, Expected result of request 5 (x = 3, p = 8) = 6...
+Locking msg queue semaphore
+Unlocking msg queue semaphore
+Client 13707: Actual result of request 0 = 1...
+Client 13707: Actual result of request 1 = 0...
+Client 13707: Actual result of request 2 = 4...
+Client 13707: Actual result of request 3 = 2...
+Client 13707: Actual result of request 4 = 0...
+Client 13707: Actual result of request 5 = 6...
+ Semaphore id: 1.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Working on client(13711): 2 request | Shared Memory name: /shm_13711,  Semaphore id: 2.
+Server: Working on client(13711): 3 request | Shared Memory name: /shm_13711,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13707): 2 request | Shared Memory name: /shm_13707,  Semaphore id: 1.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Working on client(13711): 4 request | Shared Memory name: /shm_13711,  Semaphore id: 2.
+Server: Working on client(13711): 5 request | Shared Memory name: /shm_13711,  Semaphore id: 2.
+Server: Checking low priority queue.
+Server: Working on client(13707): 3 request | Shared Memory name: /shm_13707,  Semaphore id: 1.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Working on client(13707): 4 request | Shared Memory name: /shm_13707,  Semaphore id: 1.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Working on client(13707): 5 request | Shared Memory name: /shm_13707,  Semaphore id: 1.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: Checking medium priority queue.
+Server: Checking low priority queue.
+Server: Checking high priority queue.
+Server: 
