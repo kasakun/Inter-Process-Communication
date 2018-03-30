@@ -1,4 +1,6 @@
 ## Inter Process Communication
+### Contributor
+Zeyu Chen(chenzy@gatech.edu), Yaohong Wu(ywu669@gatech.edu)
 
 ### How to use
 
